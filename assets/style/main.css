@@ -1002,6 +1002,13 @@ img {
     border: solid 0.0625rem #fa7da3;
 }
 
+@media (max-width: 372px) {
+    .points__point1__left picture {
+        padding-left: 1.5625rem;
+        padding-right: 1.5625rem;
+    }
+}
+
 @media (min-width: 768px) {
     .points__point1__left picture {
         margin-bottom: 1rem;
@@ -1016,6 +1023,13 @@ img {
     border: solid 0.0625rem #000;
     font-size: 1.125rem;
     letter-spacing: 0.0625rem;
+}
+
+@media (max-width: 372px) {
+    .poitns__point1__salonA {
+        padding-left: 1.5625rem;
+        padding-right: 1.5625rem;
+    }
 }
 
 @media (min-width: 768px) {
@@ -1077,12 +1091,19 @@ img {
 
 .points__fullbody__container {
     position: relative;
-    margin: 0 0.375rem 1.875rem;
+    margin: 0 0.3125rem 1.75rem;
     background-image: url(/assets/image/points/body_sp.jpg);
     aspect-ratio: 31 / 37;
     font-size: 0.75rem;
     font-weight: 500;
 }
+
+@media (max-width: 389px) {
+    .points__fullbody__container {
+        background-size: 99%;
+    }
+}
+
 
 @media (min-width: 768px) {
     .points__fullbody__container {
@@ -1229,6 +1250,12 @@ img {
     font-size: 0.875rem;
     font-weight: 600;
     line-height: 2.2;
+}
+
+@media (max-width: 385px) {
+    .points__parts__container {
+        justify-content: space-around;
+    }
 }
 
 @media (min-width: 768px) {
@@ -1392,6 +1419,12 @@ img {
     .course__face__description {
         font-size: 1.125rem;
         line-break: anywhere;
+    }
+}
+
+@media (max-width: 385px) {
+    .course__container img {
+        width: 99%;
     }
 }
 
